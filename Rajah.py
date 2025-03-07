@@ -11,7 +11,7 @@ page = st.sidebar.radio(
 # Home Section
 if page == "🏠 Home":
     st.title("WELCOME TO THIS PORTFOLIO INTRODUCTION")
-    st.write("I am a chill girl, clever to solve any problem")
+    st.write("I am a chill guy, clever to solve any problem")
     st.write("Watch out for my projects and skills")
     image = Image.open("screen1.jpg")  # Ensure your image filename is correct
     st.markdown(
@@ -45,12 +45,12 @@ elif page == "📂 Projects":
     st.header("Projects")
     st.write("### i. Student Career Guidance System")
     st.write("Individual Project using Python")
-    st.write("[GitHub Link](https://github.com/RAJAH133/Yasmin)")
+    st.write("[GitHub Link](https://github.com/RAJAH133/SyntaxHub)")
     st.write("[LinkedIn](https://www.linkedin.com/in/yasmin-yousif-9a0573354/)")
 
     st.write("### ii. Malaria Diagnosis System")
     st.write("Group Project using Python")
-    st.write("[GitHub Link](https://github.com/Yasmin7-w/yasmin)")
+    st.write("[GitHub Link](https://github.com/Yasmin7-w/SyntaxHub)")
 
 # Skills Section
 elif page == "💪 Skills":
@@ -66,10 +66,10 @@ elif page == "💪 Skills":
 # Testimonials Section
 elif page == "💬 Testimonials":
     st.header("Testimonials")
-    st.write("> RAJAH is a clever girl & a problem solver! – Anime girl ❤")
+    st.write("> RAJAH is a clever guy & a problem solver! – Anime guy ❤")
     st.write("> RAJAH is a computer science student💻")
     st.write("> RAJAH project developer – kalam 😈")
-    st.write("> RAJAH is a cool girl – Moni ❤")
+    st.write("> RAJAH is a cool guy – Moni ❤")
 
 # Contact Section
 elif page == "📞 Contact":
