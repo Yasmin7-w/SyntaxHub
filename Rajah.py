@@ -11,7 +11,7 @@ page = st.sidebar.radio(
 # Home Section
 if page == "🏠 Home":
     st.title("WELCOME TO THIS PORTFOLIO INTRODUCTION")
-    st.write("I am a chill guy, clever to solve any problem")
+    st.write("I am a chill girl, clever to solve any problem")
     st.write("Watch out for my projects and skills")
     image = Image.open("screen1.jpg")  # Ensure your image filename is correct
     st.markdown(
@@ -66,10 +66,10 @@ elif page == "💪 Skills":
 # Testimonials Section
 elif page == "💬 Testimonials":
     st.header("Testimonials")
-    st.write("> RAJAH is a clever guy & a problem solver! – Anime guy ❤")
+    st.write("> RAJAH is a clever girl & a problem solver! – Anime girl ❤")
     st.write("> RAJAH is a computer science student💻")
     st.write("> RAJAH project developer – kalam 😈")
-    st.write("> RAJAH is a cool guy – Moni ❤")
+    st.write("> RAJAH is a cool girl – Moni ❤")
 
 # Contact Section
 elif page == "📞 Contact":
@@ -79,8 +79,8 @@ elif page == "📞 Contact":
     st.write("🔗[LinkedIn](https://www.linkedin.com/in/yasmin-yousif-9a0573354/)")
     st.write("📂[GitHub](https://github.com/RAJAH133/Yasmin)")
     # Resume Download Button
-    with open("c:/Users/Yasmin/OneDrive/Desktop/Final year work/RAJAH_CV.pdf", "rb") as file:  # Update this line with the correct path
-        st.sidebar.download_button("Download RAJAH_CV", file, file_name="RAJAH_CV.pdf")
+    with open("cv.pdf", "rb") as file:  # Update this line with the correct path
+        st.sidebar.download_button("Download My CV", file, file_name="cv.pdf")
 
 st.sidebar.write("---")
 st.sidebar.write("🔹 Made with ❤ using My Banana")
