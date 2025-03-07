@@ -79,7 +79,7 @@ elif page == "📞 Contact":
     st.write("🔗[LinkedIn](https://www.linkedin.com/in/yasmin-yousif-9a0573354/)")
     st.write("📂[GitHub](https://github.com/RAJAH133/Yasmin)")
     # Resume Download Button
-    with open("RAJAH_CV.pdf", "rb") as file:  # Update this line with the correct path
+    with open("c:/Users/Yasmin/OneDrive/Desktop/Final year work/RAJAH_CV.pdf", "rb") as file:  # Update this line with the correct path
         st.sidebar.download_button("Download RAJAH_CV", file, file_name="RAJAH_CV.pdf")
 
 st.sidebar.write("---")
