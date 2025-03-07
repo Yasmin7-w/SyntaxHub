@@ -45,7 +45,7 @@ elif page == "📂 Projects":
     st.header("Projects")
     st.write("### i. Student Career Guidance System")
     st.write("Individual Project using Python")
-    st.write("[GitHub Link](https://github.com/RAJAH133/SyntaxHub)")
+    st.write("[GitHub Link](https://github.com/Yasmin7-w/SyntaxHub.git)")
     st.write("[LinkedIn](https://www.linkedin.com/in/yasmin-yousif-9a0573354/)")
 
     st.write("### ii. Malaria Diagnosis System")
